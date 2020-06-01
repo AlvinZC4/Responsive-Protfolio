@@ -16,8 +16,8 @@
 </head>
 
 <body>
-  <!-- Nav Bar added from Bootstrap -->
-  <nav class="navbar navbar-expand-mb navbar-light bg-light">
+  <!-- Nav Bar added from Bootstrap, d-block applied for xs and sm widths -->
+  <nav class="py-0 d-block d-md-flex navbar navbar-expand-mb navbar-light bg-light">
     <span class="navbar-brand mb-0 h1">Alvin Cox</span>
     <nav class="nav">
       <a class="nav-link active" href="index.html">About</a>
@@ -26,25 +26,32 @@
     </nav>
   </nav>
 
+  <!-- All main content in column -->
   <main class="container">
-
     <div class="row justify-content-center">
-      <div class=" col-12 col-md-8">
+      <div class="contentMain col-12 col-md-8">
 
+        <!-- About Me header -->
         <div class="row">
           <header class="col-12">
             <h2>About Me</h2>
           </header>
         </div>
 
+        <!-- My bio -->
         <div class="row">
           <div class="col-12">
+            
+            <!-- Image of me -->
             <img class="float-md-left mx-auto d-block" src="images/profilepic.jpg" alt="Profile Picture">
+            
+            <!-- Information about me -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sint unde velit tempora iusto consectetur
               eveniet vero corporis consequatur distinctio! Dolores rem quo, corporis veritatis voluptatem nulla odit,
               quisquam beatae at amet aspernatur repellendus maiores ex magni suscipit optio officia! Sit aperiam minus
               corporis, cum expedita maiores delectus vel excepturi?</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolor vel placeat quae soluta ullam
+            
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolor vel placeat quae soluta ullam
               iste eaque ipsa. Illo minus sapiente facere sunt suscipit modi nesciunt voluptate quas ducimus iusto
               necessitatibus rem itaque laboriosam, cum quaerat delectus deserunt amet dolor dolorum atque recusandae
               repudiandae dolores! Corporis dolorem explicabo recusandae vero?</p>

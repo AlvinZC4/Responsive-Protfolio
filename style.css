@@ -1,6 +1,3 @@
-.container {
-  
-}
 
 img {
 height: 240px;
@@ -8,79 +5,38 @@ width: 240px;
 padding: 15px;
 }
 
-.portfolio1-image {
+.portfolio1-image, .portfolio2-image, .portfolio3-image, .portfolio4-image, .portfolio5-image {
     width: 210px;
     height: 210px;
-    background-image: url(images/profilepic.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.portfolio1-title {
-    position: absolute;
-    bottom: 40px;
-    width: 210px;
-    background-color: cornflowerblue;
-    text-align: center;
+.portfolio1-image {
+    background-image: url(images/profilepic.jpg);
 }
 
 .portfolio2-image {
-    width: 210px;
-    height: 210px;
     background-image: url(images/profilepic.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.portfolio2-title {
-    position: absolute;
-    bottom: 40px;
-    width: 210px;
-    background-color: cornflowerblue;
-    text-align: center;
-}
 .portfolio3-image {
-    width: 210px;
-    height: 210px;
     background-image: url(images/profilepic.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.portfolio3-title {
-    position: absolute;
-    bottom: 40px;
-    width: 210px;
-    background-color: cornflowerblue;
-    text-align: center;
-}
 .portfolio4-image {
-    width: 210px;
-    height: 210px;
     background-image: url(images/profilepic.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.portfolio4-title {
-    position: absolute;
-    bottom: 40px;
-    width: 210px;
-    background-color: cornflowerblue;
-    text-align: center;
-}
 .portfolio5-image {
-    width: 210px;
-    height: 210px;
     background-image: url(images/profilepic.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.portfolio5-title {
+.portfolio1-title, .portfolio2-title, .portfolio3-title, .portfolio4-title, .portfolio5-title {
     position: absolute;
     bottom: 40px;
     width: 210px;
     background-color: cornflowerblue;
     text-align: center;
 }
+

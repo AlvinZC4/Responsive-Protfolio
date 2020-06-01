@@ -7,3 +7,80 @@ height: 240px;
 width: 240px;
 padding: 15px;
 }
+
+.portfolio1-image {
+    width: 210px;
+    height: 210px;
+    background-image: url(images/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio1-title {
+    position: absolute;
+    bottom: 40px;
+    width: 210px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.portfolio2-image {
+    width: 210px;
+    height: 210px;
+    background-image: url(images/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio2-title {
+    position: absolute;
+    bottom: 40px;
+    width: 210px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.portfolio3-image {
+    width: 210px;
+    height: 210px;
+    background-image: url(images/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio3-title {
+    position: absolute;
+    bottom: 40px;
+    width: 210px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.portfolio4-image {
+    width: 210px;
+    height: 210px;
+    background-image: url(images/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio4-title {
+    position: absolute;
+    bottom: 40px;
+    width: 210px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.portfolio5-image {
+    width: 210px;
+    height: 210px;
+    background-image: url(images/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio5-title {
+    position: absolute;
+    bottom: 40px;
+    width: 210px;
+    background-color: cornflowerblue;
+    text-align: center;
+}

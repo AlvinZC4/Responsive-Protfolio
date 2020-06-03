@@ -104,3 +104,18 @@ padding: 15px;
 .btn {
     background-color: cornflowerblue;
 }
+
+.footer {
+    height: 30%;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top: 10px;
+    background-color: darkslategray;
+    border-color: cornflowerblue;
+}
+
+.footerContent {
+    color: white;
+}

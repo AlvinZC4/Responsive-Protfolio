@@ -3,7 +3,8 @@
 }
 
 .navbar-brand {
-    background-color: cornflowerblue;
+    background-color: firebrick;
+    border-radius: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
 }
@@ -19,6 +20,7 @@
 .nav-link {
     border-right-style: groove;
     border-right: solid, black;
+    color: firebrick;
 }
 
 .nav-link:last-child {
@@ -32,7 +34,7 @@ body {
 .header {
     border-bottom-style: outset;
     margin-bottom: 30px;
-    color: cornflowerblue;
+    color: firebrick;
 }
 
 .contentMain {
@@ -103,5 +105,27 @@ padding: 15px;
 }
 
 .btn {
-    background-color: cornflowerblue;
+    background-color: firebrick;
+}
+.imagecontain {
+    height: 250px;
+    width: 250px;
+}
+.screen1 {
+    height: 100%;
+    width: 100%;
+}
+.screen2 {
+    height: 50%;
+    width: 100%;
+}
+.projecthead {
+    border-bottom-style: outset;
+    color: firebrick;
+}
+.links {
+    color: firebrick;
+}
+.all, .barall {
+    background-color: lightgoldenrodyellow;
 }
